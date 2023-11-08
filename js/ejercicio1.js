@@ -4,10 +4,8 @@ const meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio",
 document.write("<h1>Lista de Meses</h1>")
 document.write("<ul>");
 
-for(let i=0; i<12; i++){
-    document.write("<li>");
-    document.write(meses[i]);
-    document.write("</li>");
+for(let i=0; i<meses.length; i++){
+    document.write(`<li>${meses[i]}</li>`);
 }
 
 document.write("</ul>");

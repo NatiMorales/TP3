@@ -7,9 +7,7 @@ for (let i = 0; i < 50; i++) {
     sumas.push(suma);
 }
 
-document.write("<table class='borde'>");
-
-document.write(`<tr><td>Suma</td>`);
+document.write(`<table><tr><td>Suma</td>`);
 document.write(`<td>Apariciones</td></tr>`);
 
 for(let i=2; i<=12; i++){
